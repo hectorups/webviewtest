@@ -1,0 +1,30 @@
+<html>
+
+<script src="scripts/snap.svg-min.js"></script>
+<script src="scripts/multitext.js"></script>
+<script src="scripts/canvas.js"></script>
+
+<link rel="stylesheet" href="styles/canvas.css">
+
+<script type="text/javascript">
+
+
+function m2Init(text) {
+    var node = document.getElementById('canvas');
+    draw(node, 100, 100, text);
+    console.log('FROM JAVASCRIPT');
+}
+
+
+</script>
+
+<body>
+
+<div style="width:100%;height:100%;background-color:red;">
+
+    <svg id="canvas" style="width:100%; height:100%;">
+    </svg>
+</div>
+
+</body>
+</html>
